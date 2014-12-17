@@ -3,7 +3,7 @@ import os
 import sys
 
 #covDir = "/home/st/pallavi/Research/PCheck/zook-fi/random/"
-covDir = "/home/st/pallavi/Research/PCheck/zook-fi/depth-first/"
+covDir = "/home/suda/WORK/PCheck/zook-fi/depth-first/"
 
 
 allBranches = set([])

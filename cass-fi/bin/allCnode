@@ -7,7 +7,7 @@ fi
  
 numNodes=$1
 
-CASSFI=/Users/pallavi/Research/faultInjection/cass-fi
+CASSFI=/home/suda/WORK/PCheck/cass-fi
 cd $CASSFI
 
 i=0

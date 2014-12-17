@@ -2,7 +2,7 @@
 import os
 import sys
 
-zkRootDir = "/Users/pallavi/Research/faultInjection/zook-fi/"
+zkRootDir = "/home/suda/WORK/PCheck/zook-fi/"
 nZkServers = 3
 
 expNumPath = zkRootDir + "covFiles/expNum"

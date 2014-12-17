@@ -16,7 +16,7 @@
 
 
 
-CASSFI="/Users/pallavi/Research/faultInjection/cass-fi"
+CASSFI="/home/suda/WORK/PCheck/cass-fi"
 FM_MY_JARS="${CASSFI}/lib/cass"
 
 

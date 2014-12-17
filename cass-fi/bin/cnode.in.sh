@@ -14,8 +14,8 @@ fi
 # change this appropriately !!!!!!!!!!!!!!!!
 # ------------------------------------------------------
 nodeId=$NODE_ID
-cassandra_home="/Users/pallavi/Research/faultInjection/cass-fi"
-FM_MY_JARS="/Users/pallavi/Research/faultInjection/cass-fi/lib/cass"
+cassandra_home="/home/suda/WORK/PCheck/cass-fi"
+FM_MY_JARS="/home/suda/WORK/PCheck/cass-fi/lib/cass"
 
 
 # adding:
@@ -69,11 +69,11 @@ FM_BOOT_OPTS="-Xbootclasspath:$FM_WOVENRT::lib/emma.jar:lib/emma_ant.jar"
 #node0 starts at 127.0.0.1
 #node1 starts at 127.0.0.2
 
-((nodeIpLast=1+$nodeId))
+nodeIpLast=`expr 1 + $nodeId`
 nodeIp="127.0.0.$nodeIpLast"
-((nodePort=9000+$nodeId))
+nodePort=`expr 9000 + $nodeId`
 nodeAddr="$nodeIp:$nodePort"
-((jmxPort=10000+$nodeId))
+jmxPort=`expr 10000 + $nodeId`
 
 
 # ----------------------------

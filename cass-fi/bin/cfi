@@ -2,12 +2,12 @@
 
 
 
-CASSANDRA_INCLUDE=/Users/pallavi/Research/faultInjection/cass-fi/bin/cassandra.in.sh
+CASSANDRA_INCLUDE=/home/suda/WORK/PCheck/cass-fi/bin/cassandra.in.sh
 . $CASSANDRA_INCLUDE
 #echo "CLASSPATH = $CLASSPATH"
 
 
-cd /Users/pallavi/Research/faultInjection/cass-fi/
+cd /home/suda/WORK/PCheck/cass-fi/
 
 
 JAVA=`which java`

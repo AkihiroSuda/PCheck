@@ -2,9 +2,9 @@
 
 
 
-CASSANDRA_INCLUDE=/Users/pallavi/Research/faultInjection/cass-fi/bin/cfi.in.sh
+CASSANDRA_INCLUDE=/home/suda/WORK/PCheck/cass-fi/bin/cfi.in.sh
 export CASSANDRA_INCLUDE
-cd /Users/pallavi/Research/faultInjection/cass-fi
+cd /home/suda/WORK/PCheck/cass-fi
 
 
 . $CASSANDRA_INCLUDE

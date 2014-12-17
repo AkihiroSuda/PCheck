@@ -50,7 +50,7 @@ public class Driver {
   // ########################################################################
 
 
-  public String curZkDir = "/home/st/pallavi/Research/PCheck/zook-wd/";
+  public String curZkDir = "/home/suda/WORK/PCheck/zook-wd/";
 
   public String workload = Parameters.workload;
 

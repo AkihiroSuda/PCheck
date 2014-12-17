@@ -142,7 +142,7 @@ case $1 in
 	    #((ctlPort=nodeId+5000))
             ctlPort=`expr $nodeId + 5000`
 	    #PALLAVI: you might not want to kill the nodes for some workloads 
-	    java -cp $CLASSPATH emma ctl -connect localhost:${ctlPort} -command coverage.dump,/home/st/pallavi/Research/PCheck/zook-fi/emma/coverage${nodeId}.emma,true,true -command coverage.reset
+	    java -cp $CLASSPATH emma ctl -connect localhost:${ctlPort} -command coverage.dump,/home/suda/WORK/PCheck/zook-fi/emma/coverage${nodeId}.emma,true,true -command coverage.reset
             kill -9 $(cat $ZOOPIDFILE)
             rm $ZOOPIDFILE
             echo STOPPED

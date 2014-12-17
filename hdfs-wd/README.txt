@@ -34,6 +34,7 @@ the run process. Just follow the instruction in the next section.
 
 Simply, run these steps:
 
+ % export JAVA_HOME=/usr/lib/jvm/java-6-openjdk-amd64/jre
  % make kill
  % ./scripts/run-brute.py 1
 

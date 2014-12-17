@@ -406,15 +406,15 @@ fi
 # -------------------------------------------------------
 # This is a possible MAC configuration
 # -------------------------------------------------------
-FI_JAVA_CLASSES_DIR=/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Classes/
-FI_JSSE="$FI_JAVA_CLASSES_DIR/jsse.jar"
-FI_JCE="$FI_JAVA_CLASSES_DIR/jce.jar"
+#FI_JAVA_CLASSES_DIR=/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Classes/
+#FI_JSSE="$FI_JAVA_CLASSES_DIR/jsse.jar"
+#FI_JCE="$FI_JAVA_CLASSES_DIR/jce.jar"
 # -------------------------------------------------------
 # This is a possible Linux configuration
 # -------------------------------------------------------
-#FI_JAVA_CLASSES_DIR=/usr/lib/jvm/java-6-sun/jre/lib
-#FI_JSSE="$FI_JAVA_CLASSES_DIR/jsse.jar"
-#FI_JCE="$FI_JAVA_CLASSES_DIR/jce.jar"
+FI_JAVA_CLASSES_DIR=/usr/lib/jvm/java-6-openjdk-amd64/jre/lib
+FI_JSSE="$FI_JAVA_CLASSES_DIR/jsse.jar"
+FI_JCE="$FI_JAVA_CLASSES_DIR/jce.jar"
 
 
 

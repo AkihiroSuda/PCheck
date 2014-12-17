@@ -12,17 +12,17 @@
 
   <!-- This is a possible setup for MAC -->  
 
+<!--
   <property name="java.classes.dir" location="/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Classes"/>
   <property name="jsse.file" location="${java.classes.dir}/jsse.jar"/>
   <property name="jce.file"  location="${java.classes.dir}/jce.jar"/>
+-->
 
   
   <!-- This is a possible setup for Linux -->
-<!--
-  <property name="java.classes.dir" location="/usr/lib/jvm/java-6-sun/jre/lib"/>         
+  <property name="java.classes.dir" location="/usr/lib/jvm/java-6-openjdk-amd64/jre/lib"/>         
   <property name="jsse.file" location="${java.classes.dir}/jsse.jar"/>                   
   <property name="jce.file"  location="${java.classes.dir}/jce.jar"/>                    
--->
 
 
   <!-- =================================================================

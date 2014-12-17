@@ -4,7 +4,7 @@
   <!-- some shortcuts 
        in general, grep for all "haryadi" .. if you find my name 
        that is specific to my setup -->
-  <property name="zookeeper.root.dir" location="/home/st/pallavi/Research/PCheck/zook-fi"/>
+  <property name="zookeeper.root.dir" location="/home/suda/WORK/PCheck/zook-fi"/>
   <property name="zookeeper.build.class" location="${zookeeper.root.dir}/build/classes"/>
   <property name="fi.lib.dir" location="${zookeeper.root.dir}/lib/fi"/>
   <property name="aspectjlib" location="${fi.lib.dir}/aspectj"/>
@@ -118,7 +118,7 @@
   <target name="emma-ctl">
 	  <emma enabled="${emma.enabled}">
 		  <ctl connect="localhost:47653" >
-		  <command name="coverage.get" args="/home/st/pallavi/Research/PCheck/zook-fi/emma/coverage.emma" />
+		  <command name="coverage.get" args="/home/suda/WORK/PCheck/zook-fi/emma/coverage.emma" />
 		  <command>coverage.reset</command>
 		  </ctl>
 	  </emma>

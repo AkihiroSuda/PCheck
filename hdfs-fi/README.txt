@@ -14,7 +14,7 @@
    root to run the script).
 
 
-3. export ANT_OPTS="-Xms1024m -Xmx1024m"
+3. export ANT_OPTS="-Xms1024m -Xmx1024m -Dhttp.proxyHost=... -Dhttp.proxyPort=..."
 
 4. ant
 

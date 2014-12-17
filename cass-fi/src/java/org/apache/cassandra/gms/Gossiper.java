@@ -35,7 +35,7 @@ import org.apache.log4j.Logger;
 import org.apache.cassandra.Util;
 
 //PALLAVI
-import org.fi.FMClient;
+//import org.fi.FMClient;
 
 /**
  * This module is responsible for Gossiping information for the local endpoint. This abstraction
